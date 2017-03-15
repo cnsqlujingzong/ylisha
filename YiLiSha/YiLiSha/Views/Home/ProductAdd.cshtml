@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "ProductAdd";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+<div id="page-wrapper">
+    <div class="graphs">
+        <h3 class="blank1">添加 产品</h3>
+        <div class="tab-content">
+            <div class="tab-pane active" id="horizontal-form">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="focusedinput" class="col-sm-2 control-label">产品编号</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control1 required" id="txtProNum" placeholder="请输入产品编号" disabled>
+                        </div>
+                        <div class="col-sm-2 jlkdfj1">
+                            <p class="help-block" id="msgProNum"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="disabledinput" class="col-sm-2 control-label">产品名称</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control1 required" id="txtProName" placeholder="请输入产品名称">
+                        </div>
+                        <div class="col-sm-2 jlkdfj1">
+                            <p class="help-block" id="msgProName"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="disabledinput" class="col-sm-2 control-label">产品数量</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control1 required number" id="txtProQty" value="1" placeholder="请输入产品数量">
+                        </div>
+                        <div class="col-sm-2 jlkdfj1">
+                            <p class="help-block" id="msgProQty"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="selector1" class="col-sm-2 control-label">产品类型</label>
+                        <div class="col-sm-8">
+                            <select name="selector1" id="cbProType" class="form-control1 required">
+                                <option value="">请选择产品类型</option>
+                                <option>Dolore, ab unde modi est!</option>
+                                <option>Illum, fuga minus sit eaque.</option>
+                                <option>Consequatur ducimus maiores voluptatum minima.</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtarea1" class="col-sm-2 control-label">产品描述</label>
+                        <div class="col-sm-8"><textarea name="txtarea1" id="txtProDesc" cols="50" rows="8" class="form-control1" style="height:190px"></textarea></div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    
+        <div class="bs-example" data-example-id="form-validation-states-with-icons">   
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-sm-5 col-sm-offset-5">
+                            <button class="btn btn_5 btn-lg btn-warning warning_11">保存</button>                       
+                        </div>
+                    </div>
+                </div>          
+        </div>
+    </div>
+</div>
+ 
